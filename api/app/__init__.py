@@ -28,7 +28,8 @@ def create_app():
     CORS(
         app,
         origins=[
-            "https://expense-tracker-app-mu-pied.vercel.app"
+            # "https://expense-tracker-app-mu-pied.vercel.app"
+            "*"
         ]
     )
 
